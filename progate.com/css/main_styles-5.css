@@ -1,0 +1,232 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,800,900";
+
+.pilihan_5 {
+  font-family: montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+  color: #a5a5a5;
+  width: 100%;
+}
+
+.super_container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.newsletter {
+  width: 100%;
+  padding-top: 107px;
+  padding-bottom: 105px;
+}
+.newsletter_title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 0.75;
+  white-space: nowrap;
+}
+.newsletter_subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 0.75;
+  margin-top: 15px;
+}
+.newsletter_content {
+}
+.newsletter_form_container {
+  margin-left: 30px;
+  width: 100%;
+}
+.newsletter_form {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.newsletter_input {
+  width: 100%;
+  height: 72px;
+  border-radius: 36px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding-left: 45px;
+}
+.newsletter_input::-webkit-input-placeholder {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: italic;
+  color: #828282 !important;
+}
+.newsletter_input:-moz-placeholder {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: italic;
+  color: #828282 !important;
+}
+.newsletter_input::-moz-placeholder {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: italic;
+  color: #828282 !important;
+}
+.newsletter_input:-ms-input-placeholder {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: italic;
+  color: #828282 !important;
+}
+.newsletter_input::input-placeholder {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-style: italic;
+  color: #828282 !important;
+}
+.newsletter_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 193px;
+  height: 72px;
+  color: #fff;
+  border-radius: 36px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #487fee, #32fa95);
+}
+.newsletter_button:active {
+  outline: none;
+  border: none;
+}
+.div-img-newletter{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    background: 0 0;
+}
+
+.bg-img-newletter{
+  width: 1340px;
+  height: 350px;
+}
+
+.footer {
+  width: 1340px;
+  /*margin-top: 90px;*/
+}
+.footer_main {
+  width: 100%;
+  background: #3f6fce;
+  padding-top: 80px;
+  padding-bottom: 72px;
+}
+.footer_about_text {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  margin-top: 39px;
+}
+.footer_title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer_latest {
+  padding-top: 40px;
+}
+.footer_latest_image {
+  width: 86px;
+  height: 86px;
+}
+.footer_latest_image img {
+  max-width: 100%;
+}
+.footer_latest_content {
+  padding-left: 17px;
+}
+.footer_latest_location {
+  font-size: 11px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 0.75;
+}
+.footer_latest_name {
+  margin-top: 8px;
+}
+.footer_latest_name a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.footer_latest_name a:hover {
+  color: #32f996;
+}
+.footer_latest_price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #32f996;
+  margin-top: 7px;
+}
+.footer_bar {
+  width: 100%;
+  background: #fff;
+}
+.footer_bar_content {
+  height: 97px;
+}
+.cr {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  padding-right: 200px;
+
+}
+.footer_nav {
+  margin-left: 170px;
+  margin-top: 16px;
+}
+.footer_nav ul li {
+  display: inline-block;
+}
+.footer_nav ul li:not(:last-child) {
+  margin-right: 47px;
+}
+.footer_nav ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.footer_nav ul li a:hover {
+  color: #32f996;
+}
+.footer_phone {
+  font-size: 14px;
+  color: #828282;
+  font-weight: 500;
+}
+.footer_phone span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+

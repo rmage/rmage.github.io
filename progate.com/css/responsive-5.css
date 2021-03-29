@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+@media all and (max-width: 1000px) {
+  
+  .super_container {
+      width: 100%;
+      overflow: hidden;
+  }
+
+  .newsletter {
+      width: 100%;
+      padding-top: 107px;
+      padding-bottom: 50px;
+  }
+
+  .bg-img-newletter{
+    max-width: 100%;
+    max-height: 400px;
+  }
+
+  .newsletter_subtitle{
+    margin-bottom: 30px;
+  }
+
+  .newsletter_form_container {
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+  .footer {
+    width: 100%;
+  }
+
+  .footer_nav , .footer_phone {
+      display: none;
+  }
+  
+ 
+}
+
+
+
